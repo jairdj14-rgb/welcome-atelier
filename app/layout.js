@@ -8,7 +8,7 @@ export const metadata = {
   description:
     "Diseñamos celebraciones únicas: bodas, eventos infantiles, giveaways y experiencias gastronómicas.",
        icons: {
-  icon: "/favicon.ico",
+  icon: "/favicon.jpg",
 },
   openGraph: {
     title: "Welcome Atelier Eventos",
