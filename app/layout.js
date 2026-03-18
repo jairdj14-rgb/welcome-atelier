@@ -2,6 +2,7 @@ import "./globals.css";
 import { Playfair_Display, Inter } from "next/font/google";
 import WhatsAppButton from "../components/WhatsAppButton";
 import Loader from "../components/Loader";
+import { Analytics } from "@vercel/analytics/react";
 
 export const metadata = {
   title: "Welcome Atelier | Experiencias y eventos personalizados",
@@ -34,6 +35,7 @@ export default function RootLayout({ children }) {
       <body className={`${playfair.variable} ${inter.variable} font-sans`}>
         <Loader />
         {children}
+        <Analytics />
         <WhatsAppButton />
       </body>
     </html>
