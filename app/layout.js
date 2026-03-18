@@ -7,9 +7,9 @@ export const metadata = {
   title: "Welcome Atelier | Experiencias y eventos personalizados",
   description:
     "Diseñamos celebraciones únicas: bodas, eventos infantiles, giveaways y experiencias gastronómicas.",
-       icons: {
-  icon: "/favicon.jpg",
-},
+  icons: {
+    icon: "/welcome.svg",
+  },
   openGraph: {
     title: "Welcome Atelier Eventos",
     description:
@@ -31,8 +31,8 @@ const inter = Inter({
 export default function RootLayout({ children }) {
   return (
     <html lang="es">
-      <body className= {`${playfair.variable} ${inter.variable} font-sans`}>
-         <Loader />
+      <body className={`${playfair.variable} ${inter.variable} font-sans`}>
+        <Loader />
         {children}
         <WhatsAppButton />
       </body>
